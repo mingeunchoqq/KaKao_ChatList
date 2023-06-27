@@ -1,0 +1,368 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		ECBD036B2A473846007EF00D /* kakaoMGApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECBD036A2A473846007EF00D /* kakaoMGApp.swift */; };
+		ECBD036D2A473846007EF00D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECBD036C2A473846007EF00D /* ContentView.swift */; };
+		ECBD036F2A473847007EF00D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ECBD036E2A473847007EF00D /* Assets.xcassets */; };
+		ECBD03722A473847007EF00D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ECBD03712A473847007EF00D /* Preview Assets.xcassets */; };
+		ECBD03792A473865007EF00D /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECBD03782A473865007EF00D /* Model.swift */; };
+		ECBD037B2A475977007EF00D /* FriendsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECBD037A2A475977007EF00D /* FriendsView.swift */; };
+		ECBD037D2A47598A007EF00D /* ChatView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECBD037C2A47598A007EF00D /* ChatView.swift */; };
+		ECBD037F2A475993007EF00D /* OpenChatView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECBD037E2A475993007EF00D /* OpenChatView.swift */; };
+		ECBD03812A47599F007EF00D /* ShoppingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECBD03802A47599F007EF00D /* ShoppingView.swift */; };
+		ECBD03832A4759A7007EF00D /* SettingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECBD03822A4759A6007EF00D /* SettingView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		ECBD03672A473846007EF00D /* kakaoMG.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = kakaoMG.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		ECBD036A2A473846007EF00D /* kakaoMGApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = kakaoMGApp.swift; sourceTree = "<group>"; };
+		ECBD036C2A473846007EF00D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		ECBD036E2A473847007EF00D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		ECBD03712A473847007EF00D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		ECBD03782A473865007EF00D /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		ECBD037A2A475977007EF00D /* FriendsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendsView.swift; sourceTree = "<group>"; };
+		ECBD037C2A47598A007EF00D /* ChatView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatView.swift; sourceTree = "<group>"; };
+		ECBD037E2A475993007EF00D /* OpenChatView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpenChatView.swift; sourceTree = "<group>"; };
+		ECBD03802A47599F007EF00D /* ShoppingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShoppingView.swift; sourceTree = "<group>"; };
+		ECBD03822A4759A6007EF00D /* SettingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ECBD03642A473846007EF00D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		ECBD035E2A473846007EF00D = {
+			isa = PBXGroup;
+			children = (
+				ECBD03692A473846007EF00D /* kakaoMG */,
+				ECBD03682A473846007EF00D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		ECBD03682A473846007EF00D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ECBD03672A473846007EF00D /* kakaoMG.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ECBD03692A473846007EF00D /* kakaoMG */ = {
+			isa = PBXGroup;
+			children = (
+				ECBD036A2A473846007EF00D /* kakaoMGApp.swift */,
+				ECBD036C2A473846007EF00D /* ContentView.swift */,
+				ECBD037C2A47598A007EF00D /* ChatView.swift */,
+				ECBD037E2A475993007EF00D /* OpenChatView.swift */,
+				ECBD03802A47599F007EF00D /* ShoppingView.swift */,
+				ECBD03822A4759A6007EF00D /* SettingView.swift */,
+				ECBD037A2A475977007EF00D /* FriendsView.swift */,
+				ECBD03782A473865007EF00D /* Model.swift */,
+				ECBD036E2A473847007EF00D /* Assets.xcassets */,
+				ECBD03702A473847007EF00D /* Preview Content */,
+			);
+			path = kakaoMG;
+			sourceTree = "<group>";
+		};
+		ECBD03702A473847007EF00D /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				ECBD03712A473847007EF00D /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ECBD03662A473846007EF00D /* kakaoMG */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ECBD03752A473847007EF00D /* Build configuration list for PBXNativeTarget "kakaoMG" */;
+			buildPhases = (
+				ECBD03632A473846007EF00D /* Sources */,
+				ECBD03642A473846007EF00D /* Frameworks */,
+				ECBD03652A473846007EF00D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = kakaoMG;
+			productName = kakaoMG;
+			productReference = ECBD03672A473846007EF00D /* kakaoMG.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ECBD035F2A473846007EF00D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					ECBD03662A473846007EF00D = {
+						CreatedOnToolsVersion = 14.3;
+					};
+				};
+			};
+			buildConfigurationList = ECBD03622A473846007EF00D /* Build configuration list for PBXProject "kakaoMG" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = ECBD035E2A473846007EF00D;
+			productRefGroup = ECBD03682A473846007EF00D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ECBD03662A473846007EF00D /* kakaoMG */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ECBD03652A473846007EF00D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECBD03722A473847007EF00D /* Preview Assets.xcassets in Resources */,
+				ECBD036F2A473847007EF00D /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ECBD03632A473846007EF00D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECBD037F2A475993007EF00D /* OpenChatView.swift in Sources */,
+				ECBD03792A473865007EF00D /* Model.swift in Sources */,
+				ECBD036D2A473846007EF00D /* ContentView.swift in Sources */,
+				ECBD037D2A47598A007EF00D /* ChatView.swift in Sources */,
+				ECBD03812A47599F007EF00D /* ShoppingView.swift in Sources */,
+				ECBD03832A4759A7007EF00D /* SettingView.swift in Sources */,
+				ECBD037B2A475977007EF00D /* FriendsView.swift in Sources */,
+				ECBD036B2A473846007EF00D /* kakaoMGApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		ECBD03732A473847007EF00D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		ECBD03742A473847007EF00D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ECBD03762A473847007EF00D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"kakaoMG/Preview Content\"";
+				DEVELOPMENT_TEAM = UA8DAX6Z4G;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.migeun.kakaoMG;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		ECBD03772A473847007EF00D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"kakaoMG/Preview Content\"";
+				DEVELOPMENT_TEAM = UA8DAX6Z4G;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.migeun.kakaoMG;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ECBD03622A473846007EF00D /* Build configuration list for PBXProject "kakaoMG" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ECBD03732A473847007EF00D /* Debug */,
+				ECBD03742A473847007EF00D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ECBD03752A473847007EF00D /* Build configuration list for PBXNativeTarget "kakaoMG" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ECBD03762A473847007EF00D /* Debug */,
+				ECBD03772A473847007EF00D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = ECBD035F2A473846007EF00D /* Project object */;
+}
